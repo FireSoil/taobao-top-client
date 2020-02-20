@@ -1,14 +1,10 @@
 <?php
-
-namespace TopClient\request;
-
 /**
  * TOP API: taobao.tmc.topic.group.delete request
  * 
  * @author auto create
  * @since 1.0, 2018.07.25
  */
-use TopClient\RequestCheckUtil;
 class TmcTopicGroupDeleteRequest
 {
 	/** 

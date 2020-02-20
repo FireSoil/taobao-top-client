@@ -1,5 +1,4 @@
 <?php
-
 namespace TopClient\request;
 
 /**
@@ -8,7 +7,6 @@ namespace TopClient\request;
  * @author auto create
  * @since 1.0, 2018.11.10
  */
-use TopClient\RequestCheckUtil;
 class TmcMessagesProduceRequest
 {
 	/** 

@@ -6,7 +6,7 @@ namespace TopClient\request;
  * TOP API: taobao.appip.get request
  * 
  * @author auto create
- * @since 1.0, 2014.11.26
+ * @since 1.0, 2018.07.25
  */
 class AppipGetRequest
 {

@@ -1,14 +1,13 @@
 <?php
-
 namespace TopClient\request;
 
+use TopClient\RequestCheckUtil;
 /**
  * TOP API: taobao.tmc.user.permit request
  * 
  * @author auto create
  * @since 1.0, 2018.12.22
  */
-use TopClient\RequestCheckUtil;
 class TmcUserPermitRequest
 {
 	/** 

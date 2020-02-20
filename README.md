@@ -1,6 +1,32 @@
-# 淘宝客API for laravel/lumen
+# 淘宝开放平台 for laravel/lumen
 
-当前淘宝客 API 升级为2.0，原「淘宝客初级包」合并到了「淘宝客基础API」。
+原「淘宝客初级包」合并到了「淘宝客基础API」。  
+目前当前sdk已包含：
+- 淘宝客基础API
+- 公共场景
+  - (新)订单履行链路监控
+  - 获取单笔交易信息
+  - 物流基础信息查询
+  - (新)用户信息管理包
+  - 退款管理包
+  - Schema商品发布
+  - 聚石塔数据推送
+  - 消息服务_待回收
+  - 卖家基础开放
+  - 会员平台-分层管理
+- 平台基础服务	
+  - 系统工具	
+- 消息服务
+  - 消息服务
+- 发货管理	
+  - 物流发货	
+- 订单管理
+  - 订单信息查询
+  - 订单编辑
+- 评价管理	
+  - 评价信息查询	
+- 御城河
+- 奇门
 
 ## laravel
 ### 安装
@@ -37,7 +63,7 @@ dd($resp);
 if (!class_exists('TopClient')) {
     class_alias('Orzcc\TopClient\Facades\TopClient', 'TopClient');
 }
-$app->register(Orzcc\TopClient\TopClientServiceProvider::class);
+//$app->register(Orzcc\TopClient\TopClientServiceProvider::class);
 ```
 * 编辑.env文件，设置appid,appsecret
 

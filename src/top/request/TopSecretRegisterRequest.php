@@ -1,11 +1,11 @@
 <?php
-
 namespace TopClient\request;
+
 /**
  * TOP API: taobao.top.secret.register request
  * 
  * @author auto create
- * @since 1.0, 2016.08.16
+ * @since 1.0, 2018.07.25
  */
 class TopSecretRegisterRequest
 {

@@ -1,14 +1,13 @@
 <?php
-
 namespace TopClient\request;
 
+use TopClient\RequestCheckUtil;
 /**
  * TOP API: taobao.tmc.message.produce request
  * 
  * @author auto create
  * @since 1.0, 2018.10.23
  */
-use TopClient\RequestCheckUtil;
 class TmcMessageProduceRequest
 {
 	/** 

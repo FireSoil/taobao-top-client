@@ -1,5 +1,5 @@
 {
-    "name": "orzcc/taobao-top-client",
+    "name": "FireSoil/taobao-top-client",
     "type": "library",
     "description": "Taobao top client(SDK) for laravel",
     "keywords": ["taobao", "laravel", "sdk", "api"],
@@ -7,7 +7,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "orzcc",
+            "name": "FireSoil",
             "email": "orzcczh@gmail.com"
         }
     ],
@@ -18,8 +18,9 @@
     },
     "autoload": {
         "psr-4": {
-            "Orzcc\\TopClient\\": "src/",
-            "TopClient\\": "src/top/"
+            "FireSoil\\TopClient\\": "src/",
+            "TopClient\\": "src/top/",
+            "QimenCloudClient\\": "src/qimenCloud/"
         }
     }
 }

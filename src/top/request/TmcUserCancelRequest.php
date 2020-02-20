@@ -1,14 +1,13 @@
 <?php
-
 namespace TopClient\request;
 
+use TopClient\RequestCheckUtil;
 /**
  * TOP API: taobao.tmc.user.cancel request
  * 
  * @author auto create
  * @since 1.0, 2018.07.25
  */
-use TopClient\RequestCheckUtil;
 class TmcUserCancelRequest
 {
 	/** 

@@ -2,13 +2,13 @@
 
 namespace TopClient\request;
 
+use TopClient\RequestCheckUtil;
 /**
  * TOP API: taobao.tmc.group.add request
  * 
  * @author auto create
  * @since 1.0, 2018.12.22
  */
-use TopClient\RequestCheckUtil;
 class TmcGroupAddRequest
 {
 	/** 
