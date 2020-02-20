@@ -1,7 +1,7 @@
 <?php
-namespace Orzcc\TopClient;
+namespace FireSoil\TopClient;
 
-use Orzcc\TopClient\Factories\TopClientFactory;
+use FireSoil\TopClient\Factories\TopClientFactory;
 use GrahamCampbell\Manager\AbstractManager;
 use Illuminate\Contracts\Config\Repository;
 

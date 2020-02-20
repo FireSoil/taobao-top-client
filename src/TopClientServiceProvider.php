@@ -1,5 +1,5 @@
 <?php
-namespace Orzcc\TopClient;
+namespace FireSoil\TopClient;
 
 use Illuminate\Foundation\Application as LaravelApplication;
 use Laravel\Lumen\Application as LumenApplication;
@@ -52,7 +52,7 @@ class TopClientServiceProvider extends ServiceProvider {
         $app->singleton('topclient.factory', function ($app) {
             return new Factories\TopClientFactory();
         });
-        $app->alias('topclient.factory', 'Orzcc\TopClient\Factories\TopClientFactory');
+        $app->alias('topclient.factory', 'FireSoil\TopClient\Factories\TopClientFactory');
     }
     /**
      * Register the manager class.
@@ -68,7 +68,7 @@ class TopClientServiceProvider extends ServiceProvider {
             $factory = $app['topclient.factory'];
             return new TopClientManager($config, $factory);
         });
-        $app->alias('topclient', 'Orzcc\TopClient\TopClientManager');
+        $app->alias('topclient', 'FireSoil\TopClient\TopClientManager');
     }
     /**
      * Get the services provided by the provider.

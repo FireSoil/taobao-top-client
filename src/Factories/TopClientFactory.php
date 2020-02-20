@@ -1,5 +1,5 @@
 <?php
-namespace Orzcc\TopClient\Factories;
+namespace FireSoil\TopClient\Factories;
 
 use Illuminate\Support\Arr;
 use TopClient\TopClient;

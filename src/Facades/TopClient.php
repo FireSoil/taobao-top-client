@@ -1,4 +1,4 @@
-<?php namespace Orzcc\TopClient\Facades;
+<?php namespace FireSoil\TopClient\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
